@@ -6,10 +6,9 @@ tags: []
 author: "admin"
 ---
 
-TIME:     5:00 PM (EST)
+TIME:     TBD
 
-LOCATION: [The Thirsty Scholar](http://thethirstyscholarnyc.com/)
+LOCATION: TBD
 
 
-It's time for the New Hire Network happy hour kick off! Let's meet
-at *The Scholar* and then move on from there.
+Details to be decided!
