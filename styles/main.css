@@ -26,35 +26,28 @@ src:local('Material Icons'),local(MaterialIcons-Regular),url(fonts/icons.woff2) 
   direction: ltr;
   -webkit-font-smoothing: antialiased;
 }
-/* cyrillic */
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Playfair Display'), local('PlayfairDisplay-Regular'), url(fonts/pfdc.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
+
 /* latin-ext */
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'Libre Baskerville';
   font-style: normal;
   font-weight: 400;
-  src: local('Playfair Display'), local('PlayfairDisplay-Regular'), url(fonts/pdfe.woff2) format('woff2');
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(fonts/slbe.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'Libre Baskerville';
   font-style: normal;
   font-weight: 400;
-  src: local('Playfair Display'), local('PlayfairDisplay-Regular'), url(fonts/pdfl.woff2) format('woff2');
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(fonts/slbl.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'Libre Baskerville';
   font-style: normal;
   font-weight: 400;
-  src: local('Playfair Display'), local('PlayfairDisplay-Regular'), url(fonts/pfd.ttf) format('truetype');
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(fonts/lbl.ttf) format('truetype');
 }
 
 /* latin */
@@ -72,41 +65,36 @@ src:local('Material Icons'),local(MaterialIcons-Regular),url(fonts/icons.woff2) 
   font-weight: 400;
   src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(fonts/stm.ttf) format('truetype');
 }
-/* latin */
+
+/* cyrillic */
 @font-face {
-  font-family: 'Vast Shadow';
+  font-family: 'Rubik One';
   font-style: normal;
   font-weight: 400;
-  src: local('Vast Shadow Regular'), local('VastShadow-Regular'), url(fonts/vsl.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-@font-face {
-  font-family: 'Vast Shadow';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Vast Shadow Regular'), local('VastShadow-Regular'), url(fonts/vsl.ttf) format('truetype');
+  src: local('Rubik One Regular'), local('RubikOne-Regular'), url(fonts/sr0c.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Libre Franklin';
+  font-family: 'Rubik One';
   font-style: normal;
-  font-weight: 700;
-  src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'), url(fonts/lfe.woff2) format('woff2');
+  font-weight: 400;
+  src: local('Rubik One Regular'), local('RubikOne-Regular'), url(fonts/sr0e.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Libre Franklin';
+  font-family: 'Rubik One';
   font-style: normal;
-  font-weight: 700;
-  src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'), url(fonts/lfl.woff2) format('woff2');
+  font-weight: 400;
+  src: local('Rubik One Regular'), local('RubikOne-Regular'), url(fonts/sr0l.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
-  font-family: 'Libre Franklin';
+  font-family: 'Rubik One';
   font-style: normal;
-  font-weight: 700;
-  src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'), url(fonts/lfl.ttf) format('truetype');
+  font-weight: 400;
+  src: local('Rubik One Regular'), local('RubikOne-Regular'), url(fonts/rbo.ttf) format('truetype');
 }
 a{
     font-family: 'Share Tech Mono', monospace;
@@ -116,7 +104,7 @@ a{
 }
 .my-link:hover{
     background: #c9f6ff;
-    border: 0px solid #c9f6ff;
+    border: 1px solid #c9f6ff;
     border-radius: 3px;
 }
 .my-link:active{
@@ -130,7 +118,7 @@ a{
     margin-top: 45px;
 }
 .my-name{
-    font-family: 'Vast Shadow', cursive;
+    font-family: 'Rubik One', sans-serif;
     font-size: 45px;
     color: black;
 }
@@ -141,7 +129,7 @@ a{
     color: black;
 }
 .my-heading{
-    font-family: 'Vast Shadow', cursive;
+    font-family: 'Rubik One', sans-serif;
     font-size: 37px;
     margin-top: 70px;
 }
@@ -149,14 +137,13 @@ a{
     font-size: 33px;
 }
 .my-mini-heading{
-    font-family: 'Vast Shadow', cursive;
-    font-weight: normal;
-    font-size: 27px;
+    font-family: 'Rubik One', sans-serif;
+    font-size: 23.5px;
 }
 .my-mini-heading-sub{
-    font-family: 'Share Tech Mono', monospace;
-    font-weight: normal;    
-    font-size: 14.5px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    color: #4db6ac;
 }
 .my-description{
     font-family: 'Share Tech Mono', monospace;
@@ -185,14 +172,13 @@ a{
     color: #38c1c1;
 }
 .my-text-body{
-    font-family: 'Playfair Display', serif;
-    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
     margin-top: 20px;
 }
 .my-text-body h1,h2,h3,h4,h5,h6 {
-    font-family: 'Libre Franklin', sans-serif;
-
-    font-weight: bold;
+    font-family: 'Rubik One', sans-serif;
+    font-weight: 300 !important;
     margin-bottom: 20px;
 }
 .my-text-body h1{
@@ -214,8 +200,9 @@ a{
     font-size: 16px;
 }
 .my-text-author{
-    font-size: 17px;
-     font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
     margin: 30px 0 25px;
 }
 .my-text-body a{
@@ -223,12 +210,12 @@ a{
 }
 .my-text-body a:hover{
     background: #c9f6ff;
-    border: 0px solid #c9f6ff;
+    border: 1px solid #c9f6ff;
     border-radius: 3px;
 }
 .my-text-body a:active{
     background: #c9dcff;
-    border: 0px solid #c9dcff;
+    border: 1px solid #c9dcff;
     border-radius: 3px;
 }
 
@@ -242,17 +229,17 @@ a{
     color: #ea8462;
 }
 .my-item{
-     font-family: 'Playfair Display', serif;    
-    font-size: 16px;
-    margin-bottom: 40px;
+     font-family: 'Libre Baskerville', serif;    
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 .my-item-sub{
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 13px;
+     font-family: 'Share Tech Mono', monospace;
+     font-size: 12px;
 }
 .my-tag{
     font-family: 'Share Tech Mono', monospace;
-    font-size: 14.5px;
+    font-size: 13px;
     color: #4db6ac;
 }
 #projects, #posts{

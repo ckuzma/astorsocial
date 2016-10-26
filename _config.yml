@@ -1,26 +1,25 @@
-title: "Lukas Himsel"
-description: "Lukas Himsels persönliche Website mit Themen wie Musik, Klaviere, Open-Data, Open-Source und Webprojekten."
-about: "Schüler, der gerne Klavier spielt, Joggen geht und <i>versucht</i>, Websites und Programme zu entwickeln."
-location: "Deutschland, Kitzingen"
-email: lukas@himsel.me
+title: "astor place social"
+description: ""
+about: ""
+location: "New York, NY"
+email: null
 baseurl: ""
-url: "http://himsel.me"
-twitter_username: lukashimsel
-github_username:  lukas-h
-author: "Lukas Himsel"
+url: "" # replace by your site's url
+twitter_username: null
+github_username:  null
+author: ""
 
 # google analytics tracking code, please change the value
-g_analytics: "UA-72004048-3"
+g_analytics: ""
 
 # language settings
-isolang: de
-close_btn: "Ausblenden"
-home_btn: "Startseite"
-projects_btn: "Projekte"
-posts_btn: "Posts"
-imprint_btn: "Impressum"
-name_badge: "Ein Artikel von"
-rss_badge: "Feed abbonieren!"
+isolang: en
+close_btn: "Close"
+home_btn: "Home"
+projects_btn: ""
+posts_btn: "Events"
+imprint_btn: "Imprint"
+name_badge: "an article by"
 
 # build settings
 markdown: kramdown
@@ -38,7 +37,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     tab_width: 4
-    
+
 # third party gems
 gems:
   - jekyll-paginate
@@ -49,7 +48,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
-  
+
 # exclude files
 exclude:
   - LICENSE

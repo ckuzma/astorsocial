@@ -6,26 +6,14 @@ layout: default
   <h2 class="my-mini-heading" itemprop="name headline">{{ page.title }}<br>
     <span class="my-mini-heading-sub">
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {{ page.date | date: "%b %-d, %Y" }}
+      Posted: {{ page.date | date: "%b %-d, %Y" }}
     </time>
     </span></h2>
 
   <div class="my-text-body">
     {{ content }}
-  </div>
-
-  <p class="center-align my-text-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    {% if page.author %}
-      <span itemprop="name">{{ site.name_badge }} {{ page.author }}</span>
-    {% endif %}
     <br>
-    {% if page.tags %}
-      <i class="fa fa-tags" aria-hidden="true"></i>
-      {% for tag in page.tags %}
-        <span class="my-tag">{{ tag }}</span>&ensp;
-      {% endfor %}
-    {% endif %}
-  </p>
+  </div>
 
   <div class="center-align">
   {% if page.next.url %}
